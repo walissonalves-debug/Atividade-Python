@@ -1,0 +1,10 @@
+inferior = 1
+superior = 10
+acumulador = 0
+
+for i in range(inferior,superior+1):
+    if i%2 == 0:
+        acumulador += i
+        print ("O número par",i,"e seu somátório: ", acumulador)
+        
+        
